@@ -9,9 +9,6 @@
 # 소개
 * Vue.js는 사용자 인터페이스 빌드를 위한 오픈 소스 자바스크립트 프레임워크입니다. 유사한 종류로는 React, Angular.js등이 있습니다. 장고에서 Vue.js를 사용하려면 어떻게 하는가 해서 한번 적용해서 작성해보았습니다.
 
-## 시스템 구조
-![Overview](https://github.com/naver/guitar/blob/master/doc/system.png)
-
 ## 설치방법
 * > git clone https://github.com/hyeseong-dev/Vue.js-Todo.git
 * > pip install Django
