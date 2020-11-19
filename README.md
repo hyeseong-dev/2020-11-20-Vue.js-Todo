@@ -2,11 +2,11 @@
 
 ![main-vuejs-todo](https://user-images.githubusercontent.com/57933835/99614343-a6479900-2a5c-11eb-8051-3847e8ac7920.png)
 
-<ing src="https://user-images.githubusercontent.com/57933835/99614343-a6479900-2a5c-11eb-8051-3847e8ac7920.png" width="400" height="400">
+<img src="https://user-images.githubusercontent.com/57933835/99614343-a6479900-2a5c-11eb-8051-3847e8ac7920.png" width="400" height="400">
 
 ![tree structures](https://user-images.githubusercontent.com/57933835/99614630-3e458280-2a5d-11eb-8ba9-7a9fe2f381d4.png)
 
-<ing src="(https://user-images.githubusercontent.com/57933835/99614630-3e458280-2a5d-11eb-8ba9-7a9fe2f381d4.png" width="400" height="400">
+<img src="(https://user-images.githubusercontent.com/57933835/99614630-3e458280-2a5d-11eb-8ba9-7a9fe2f381d4.png" width="400" height="400">
   
 ## Vue.js 사용 취지
 * 백엔드 개발자의 경우 적용만 할 줄 알면 되는것이지 실제로는 해당 프레임워크의 사용법은 몰라도 무방합니다. 하지만 알아 둔다면 협업 자체가 매우 수월하기에 Vue.js를 이용한 ToDo앱을 만들어 본것입니다. 
