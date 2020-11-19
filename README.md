@@ -1,70 +1,39 @@
 # Vue.js-Todo
 
-#GUITAR
-## 업데이트 공지
-Selenium 2.0.0.38 버전이 업데이트 되었습니다.  릴리즈 메뉴를 참조하세요.
-* https://github.com/naver/guitar/releases
+![main-vuejs-todo](https://user-images.githubusercontent.com/57933835/99614343-a6479900-2a5c-11eb-8051-3847e8ac7920.png)
 
-## 소개
-* GUITAR는 GUI 기반의 웹 테스트를 자동화 Framework 입니다. 
-* 최초 PC 브라우저 기반으로 테스트 자동화 도구로 제작되었으나, 다양하게 확장되어 PC Client 프로그램 및 스마트폰의 모바일앱까지 테스트가 가능합니다.  
-* GUITAR 소개 http://helloworld.naver.com/helloworld/1296  
-* GUITAR 사용 예제 동영상 (네이버 검색) : http://www.youtube.com/watch?v=qlnF6mFeP4c  
-* GUITAR 사용 예제 동영상 (PC Client + 아이폰앱 + 안드로이드앱 상호 연동) : http://www.youtube.com/watch?v=TKyB3DGH15g 
+![tree structures](https://user-images.githubusercontent.com/57933835/99614630-3e458280-2a5d-11eb-8ba9-7a9fe2f381d4.png)
+
+## Vue.js 사용 취지
+* 백엔드 개발자의 경우 적용만 할 줄 알면 되는것이지 실제로는 해당 프레임워크의 사용법은 몰라도 무방합니다. 하지만 알아 둔다면 협업 자체가 매우 수월하기에 Vue.js를 이용한 ToDo앱을 만들어 본것입니다. 
+# 소개
+* Vue.js는 사용자 인터페이스 빌드를 위한 오픈 소스 자바스크립트 프레임워크입니다. 유사한 종류로는 React, Angular.js등이 있습니다. 장고에서 Vue.js를 사용하려면 어떻게 하는가 해서 한번 적용해서 작성해보았습니다.
+
 ## 시스템 구조
 ![Overview](https://github.com/naver/guitar/blob/master/doc/system.png)
 
 ## 설치방법
-* [releases](https://github.com/naver/guitar/releases)에서 최신 설치파일을 받아 설치합니다.  
-* 설치후 실행시 일부백신프로그램에서 실행파일을 바이러스로 오진하는 경우가 있으나, 안심하고 사용하셔도 됩니다. (http://www.autoitscript.com/forum/topic/34658-are-my-autoit-exes-really-infected/) 
-* WINDOWS 7 및 VISTA 이상의 OS에서는 제어판에서 "사용자계정컨트롤설정변경"을 최소로 설정해야 합니다. 
-* 설치 프로그램에 포함된 예제스크립트가 정상작동되지 않을수 있습니다. 
-* 프로그램 설치후 최신 버전의 예제스크립(https://github.com/ssmmhh/guitarsample/archive/master.zip) 를 "c:\guitar\data"에 덮어 쓴뒤 사용하시기 바랍니다. 
+* > git clone https://github.com/hyeseong-dev/Vue.js-Todo.git
+* > pip install Django
+* > python manage.py runserver
 
-## 개발관련 설정
-- Autoit 3.3.8.1의 기본 라이브러리의 일부 함수가 수정되어야 합니다. 
-  autoit3381_guirichedit_hotfix\GuiRichEdit.au3 -> Autoit설치폴더\include에 덮어쓴뒤 사용하면 됩니다.
-- autoit 편집기의 SciTE Config (CTRL+1) 에서 "General Settings > AutoIt3 Directory settings > User include" 위치를 checkout 받은 최상위 폴더로 지정해야 합니다. (하위에 _include_nhn 이 존재해야 합니다.)
+## 기능 
+1. 입력란에 할일을 입력후 Enter키를 누르면 데이터가 저장됨
+2. 완료한 일을 제외한 해야할 목록을 fron에 나타냄
+3. All, Active, Completed 3가지 유형으로 목록을 분류함
+4. Completed 된 부분은 "Clear completed'버튼을 클릭하여 삭제함 
+5. 해야 할 일들을 완료하였으면 해당 목록의 앞 부분을 더블클릭하여 가로줄 생성
 
-## 사용법
-* 자세한 사용방법은 [releases](https://github.com/naver/guitar/releases)의 사용자설명서를 참고하시기 바랍니다. 
 
 ## 다운로드
-* https://github.com/naver/guitar/releases
+* https://github.com/hyeseong-dev/Vue.js-Todo/
 
 ## Q&A
-* https://github.com/naver/guitar/issues
-
-## FAQ
-* https://github.com/naver/guitar/issues?utf8=%E2%9C%93&q=label%3ATip%20
+* https://github.com/hyeseong-dev/Vue.js-Todo/issues
 
 ## 프로젝트 참여방법
-* email : ssmmhh@gmail.com
+* email : hyeseong43@gmail.com
 
 ## 라이선스
-* 본 프로그램은 [GPL v2](/LICENSE/License_GUITAR.txt)로 배포됩니다. 
-
-```
-Copyright (C) 2013 Naver corp.
-
-This program is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License
-as published by the Free Software Foundation; either version 2
-of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-```
-
-## Dependencies 
-- 본 프로그램은 Autoit 3.3.8.1 버전으로 개발되었습니다. (http://www.autoitscript.com/site/)
-- 본 프로그램은 ImageSearchDLL 라이브러리를 사용합니다. (http://www.autoitscript.com/forum/topic/65748-image-search-library/)
-- 본 프로그램은 CollabNet사의 "Subversion 1.6.x (Windows 32-bit)" 프로그램을 포함하고 있습니다. 
-(http://www.collab.net/downloads/svn-other)
+* 본 프로그램은 Open Source로 배포됩니다. 
 
